@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/window_container_settings"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:animateLayoutChanges="true"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:visibility="visible">
+
+    <ImageView
+        android:id="@+id/curtain_settings_show"
+        android:layout_width="@dimen/curtain_icon_size"
+        android:layout_height="@dimen/curtain_icon_size"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/image_5" />
+
+    <LinearLayout
+        android:id="@+id/root_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/curtain_settings"
+            android:layout_width="@dimen/curtain_icon_size"
+            android:layout_height="@dimen/curtain_icon_size"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/image_2" />
+
+
+        <ImageView
+            android:id="@+id/ic_brightness"
+            android:layout_width="@dimen/curtain_icon_size"
+            android:layout_height="@dimen/curtain_icon_size"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/image_3" />
+
+        <ImageView
+
+            android:id="@+id/curtain_close"
+            android:layout_width="@dimen/curtain_icon_size"
+            android:layout_height="@dimen/curtain_icon_size"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/image_4" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/slider"
+        android:layout_width="@dimen/curtain_icon_size"
+        android:layout_height="@dimen/curtain_icon_size"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/image_1" />
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<com.google.android.gms.ads.formats.NativeAppInstallAdView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/root_constraint"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:background="@drawable/item_background"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <ImageView
+            android:id="@+id/appinstall_app_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="-16dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/appinstall_body"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginStart="@dimen/activity_vertical_margin"
+            android:ellipsize="end"
+            android:gravity="top"
+            android:textAppearance="@style/TextAppearance.Subhead"
+            app:autoSizeMaxTextSize="18dp"
+            app:autoSizeMinTextSize="12dp"
+            app:autoSizeStepGranularity="1dp"
+            app:autoSizeTextType="uniform"
+            app:layout_constraintBottom_toTopOf="@+id/appinstall_call_to_action"
+            app:layout_constraintLeft_toRightOf="@+id/appinstall_app_icon"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/appinstall_app_icon"
+            app:layout_constraintVertical_bias="0"
+            tools:text="@string/app_name" />
+
+        <Button
+            android:id="@+id/appinstall_call_to_action"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_bg"
+            android:layout_marginTop="@dimen/vertical_margin_inner_secondary"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.description"
+            app:layout_constraintBottom_toBottomOf="@+id/appinstall_app_icon"
+            app:layout_constraintHorizontal_bias="0"
+            android:textAllCaps="true"
+            android:text="@string/install"
+            app:layout_constraintLeft_toLeftOf="@id/appinstall_body"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/appinstall_body"
+            tools:text="INSTALL" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</com.google.android.gms.ads.formats.NativeAppInstallAdView>

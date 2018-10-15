@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shorts.news">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application>
+
+        <activity
+            android:name="com.news.shorts.views.NewsDetailActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            android:screenOrientation="portrait" />
+    </application>
+</manifest>

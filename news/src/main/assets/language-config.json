@@ -1,0 +1,719 @@
+{
+  "countries": [
+    {
+      "displayName": "India",
+      "countryCode": "IN",
+      "languages": [
+        {
+          "displayName": "हिंदी",
+          "languageCode": "hi"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        },
+        {
+          "displayName": "മല്യാലം",
+          "languageCode": "ml"
+        },
+        {
+          "displayName": "தமிழ்",
+          "languageCode": "ta"
+        },
+        {
+          "displayName": "ಕನ್ನಡ",
+          "languageCode": "kn"
+        },
+        {
+          "displayName": "বাঙালি",
+          "languageCode": "bn"
+        },
+        {
+          "displayName": "তেলুগুি",
+          "languageCode": "te"
+        },
+        {
+          "displayName": "মারাঠিগুি",
+          "languageCode": "mr"
+        },
+        {
+          "displayName": "গুজরাটিুগুি",
+          "languageCode": "gu"
+        },
+        {
+          "displayName": "পাঞ্জাবিুগুি",
+          "languageCode": "pa"
+        },
+        {
+          "displayName": "উর্দুবিুগুি",
+          "languageCode": "ur"
+        }
+      ]
+    },
+    {
+      "displayName": "France",
+      "countryCode": "FR",
+      "languages": [
+        {
+          "displayName": "français",
+          "languageCode": "fr"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "US",
+      "countryCode": "US",
+      "languages": [
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "UK",
+      "countryCode": "GB",
+      "languages": [
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Canada",
+      "countryCode": "CA",
+      "languages": [
+        {
+          "displayName": "français",
+          "languageCode": "fr"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Australia",
+      "countryCode": "AU",
+      "languages": [
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Germany",
+      "countryCode": "DE",
+      "languages": [
+        {
+          "displayName": "Deutsche",
+          "languageCode": "de"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Brazil",
+      "countryCode": "BR",
+      "languages": [
+        {
+          "displayName": "Português",
+          "languageCode": "pt"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Indonesia",
+      "countryCode": "ID",
+      "languages": [
+        {
+          "displayName": "bahasa Indonesia",
+          "languageCode": "id"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Italy",
+      "countryCode": "IT",
+      "languages": [
+        {
+          "displayName": "italiano",
+          "languageCode": "it"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Spain",
+      "countryCode": "ES",
+      "languages": [
+        {
+          "displayName": "Español",
+          "languageCode": "es"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Mexico",
+      "countryCode": "MX",
+      "languages": [
+        {
+          "displayName": "Español",
+          "languageCode": "es"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Argentina",
+      "countryCode": "AR",
+      "languages": [
+        {
+          "displayName": "Español",
+          "languageCode": "es"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Chile",
+      "countryCode": "CL",
+      "languages": [
+        {
+          "displayName": "Español",
+          "languageCode": "es"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Colombia",
+      "countryCode": "CO",
+      "languages": [
+        {
+          "displayName": "Español",
+          "languageCode": "es"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Puerto Rico",
+      "countryCode": "PR",
+      "languages": [
+        {
+          "displayName": "Español",
+          "languageCode": "es"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Peru",
+      "countryCode": "PE",
+      "languages": [
+        {
+          "displayName": "Español",
+          "languageCode": "es"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Uruguay",
+      "countryCode": "UY",
+      "languages": [
+        {
+          "displayName": "Español",
+          "languageCode": "es"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Belgium",
+      "countryCode": "BE",
+      "languages": [
+        {
+          "displayName": "français",
+          "languageCode": "fr"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Switzerland",
+      "countryCode": "CH",
+      "languages": [
+        {
+          "displayName": "français",
+          "languageCode": "fr"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Japan",
+      "countryCode": "JP",
+      "languages": [
+        {
+          "displayName": "日本語",
+          "languageCode": "ja"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Turkey",
+      "countryCode": "TR",
+      "languages": [
+        {
+          "displayName": "Türk",
+          "languageCode": "tr"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Vietnam",
+      "countryCode": "VN",
+      "languages": [
+        {
+          "displayName": "Tiếng Việt",
+          "languageCode": "vi"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Malaysia",
+      "countryCode": "MY",
+      "languages": [
+        {
+          "displayName": "Bahasa Melayu",
+          "languageCode": "ms"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Norway",
+      "countryCode": "NO",
+      "languages": [
+        {
+          "displayName": "norsk",
+          "languageCode": "no"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Russia",
+      "countryCode": "RU",
+      "languages": [
+        {
+          "displayName": "русский",
+          "languageCode": "ru"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Netherlands",
+      "countryCode": "NL",
+      "languages": [
+        {
+          "displayName": "Nederlands",
+          "languageCode": "nl"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Thailand",
+      "countryCode": "TH",
+      "languages": [
+        {
+          "displayName": "ไทย",
+          "languageCode": "th"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Taiwan",
+      "countryCode": "TW",
+      "languages": [
+        {
+          "displayName": "中文",
+          "languageCode": "zh"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Austria",
+      "countryCode": "AT",
+      "languages": [
+        {
+          "displayName": "Magyar",
+          "languageCode": "hu"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Denmark",
+      "countryCode": "DK",
+      "languages": [
+        {
+          "displayName": "dansk",
+          "languageCode": "da"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Finland",
+      "countryCode": "FI",
+      "languages": [
+        {
+          "displayName": "Suomalainen",
+          "languageCode": "fi"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Sweden",
+      "countryCode": "SE",
+      "languages": [
+        {
+          "displayName": "svenska",
+          "languageCode": "sv"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Romania",
+      "countryCode": "RO",
+      "languages": [
+        {
+          "displayName": "Română",
+          "languageCode": "ro"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "New Zealand",
+      "countryCode": "NZ",
+      "languages": [
+
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Philippines",
+      "countryCode": "PH",
+      "languages": [
+        {
+          "displayName": "Filipino",
+          "languageCode": "fl"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Poland",
+      "countryCode": "PL",
+      "languages": [
+        {
+          "displayName": "Polskie",
+          "languageCode": "pl"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Israel",
+      "countryCode": "IL",
+      "languages": [
+        {
+          "displayName": "עִברִית",
+          "languageCode": "he"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Saudi Arabia",
+      "countryCode": "SA",
+      "languages": [
+        {
+          "displayName": "عربى",
+          "languageCode": "ar"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Hong Kong",
+      "countryCode": "hk",
+      "languages": [
+        {
+          "displayName": "中文",
+          "languageCode": "zh"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Portugal",
+      "countryCode": "PT",
+      "languages": [
+        {
+          "displayName": "Português",
+          "languageCode": "pt"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Singapore",
+      "countryCode": "SG",
+      "languages": [
+        {
+          "displayName": "malay",
+          "languageCode": "ms"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "South Africa",
+      "countryCode": "ZA",
+      "languages": [
+
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Ireland",
+      "countryCode": "IE",
+      "languages": [
+        {
+          "displayName": "Gaeilge",
+          "languageCode": "ga"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Ukraine",
+      "countryCode": "UA",
+      "languages": [
+        {
+          "displayName": "Українська",
+          "languageCode": "uk"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "UAE",
+      "countryCode": "AE",
+      "languages": [
+        {
+          "displayName": "عربى",
+          "languageCode": "ar"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Greece",
+      "countryCode": "GR",
+      "languages": [
+        {
+          "displayName": "Ελληνικά",
+          "languageCode": "el"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Croatia",
+      "countryCode": "HR",
+      "languages": [
+        {
+          "displayName": "Hrvatski",
+          "languageCode": "hr"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Hungary",
+      "countryCode": "HU",
+      "languages": [
+        {
+          "displayName": "Magyar",
+          "languageCode": "hu"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }
+      ]
+    },
+    {
+      "displayName": "Czechia",
+      "countryCode": "CZ",
+      "languages": [
+        {
+          "displayName": "čeština",
+          "languageCode": "cs"
+        },
+        {
+          "displayName": "English",
+          "languageCode": "en"
+        }]}
+  ]}

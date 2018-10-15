@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        app:srcCompat="@drawable/ic_messenger_logo_drawer" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:textStyle="normal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:text="@string/app_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            tools:ignore="SpUsage" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
+            android:paddingBottom="10dp"
+            android:text="@string/app_desc"
+            android:textColor="#ffffff"
+            android:textSize="11dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_notification"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_margin="16dp"
+        android:layout_weight="0"
+        android:contentDescription="@string/title_notification"
+        app:srcCompat="@drawable/ic_notificatiion" />
+
+</LinearLayout>

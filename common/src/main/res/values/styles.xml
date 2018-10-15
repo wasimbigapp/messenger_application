@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="TextAppearance.Headline" parent="@style/TextAppearance.AppCompat.Body2">
+        <!--<item name="android:textColor">@color/blackPrimary</item>-->
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="TextAppearance.Subhead" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="TextAppearance.description" parent="@style/TextAppearance.AppCompat.Small">
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="TextAppearance.language" parent="@style/TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="card_style">
+        <item name="cardBackgroundColor">@color/cardViewBackground</item>
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+
+    <style name="tooltip_text">
+        <item name="android:elevation">4dp</item>
+        <item name="android:layout_gravity">bottom|center_horizontal</item>
+        <item name="android:layout_margin">@dimen/activity_horizontal_margin</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">@dimen/vertical_inner_margin</item>
+        <item name="android:paddingTop">@dimen/vertical_inner_margin</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:drawablePadding">@dimen/vertical_inner_margin</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/bg_tooltip</item>
+    </style>
+
+    <style name="progressbar">
+        <item name="android:indeterminateDrawable">@drawable/loader</item>
+    </style>
+
+    <style name="progressbarLarge">
+        <item name="android:indeterminateDrawable">@drawable/loader_large</item>
+    </style>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@color/black_aplha_50"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="@dimen/curtain_icon_size"
+        android:layout_height="@dimen/curtain_icon_size"
+        android:src="@drawable/ic_brightness_high_white_24dp" />
+
+    <SeekBar
+        android:id="@+id/seek_alpha"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:max="100"
+        android:progress="20" />
+
+    <ImageView
+        android:layout_width="@dimen/curtain_icon_size"
+        android:layout_height="@dimen/curtain_icon_size"
+        android:src="@drawable/ic_brightness_low_white_24dp" />
+
+</LinearLayout>

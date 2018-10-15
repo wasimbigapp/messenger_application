@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">common</string>
+    <string name="empty_view">Empty View</string>
+    <string name="error_generic">Something is not right, we\'ll fix this shortly.</string>
+    <string name="publisher_id">over_ride_in_app_file</string>
+    <string name="gdpr_test_device">override</string>
+    <string name="swipe_for_more">Swipe Down For More</string>
+    <string name="native_ad_id">ca-app-pub-3463246254277621/4139150632</string>
+    <string name="TEST_DEVICE"></string>
+    <string name="loading_text">Please wait while we load more news for you</string>
+</resources>

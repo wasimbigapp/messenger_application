@@ -1,0 +1,2 @@
+include ':app', ':messenger', ':video-messenger', ':news', ':common', ':chrome-tabs'
+include ':color-picker'

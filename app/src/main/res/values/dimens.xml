@@ -1,0 +1,24 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="tabs_height">56dp</dimen>
+    <dimen name="app_card_padding">12dp</dimen>
+    <dimen name="small_ad_width">295dp</dimen>
+    <dimen name="small_ad_height">135dp</dimen>
+    <dimen name="horizontal_margin">14dp</dimen>
+    <dimen name="icon_size">38dp</dimen>
+    <dimen name="card_corner_radius">3dp</dimen>
+    <dimen name="tabsTextSize">16dp</dimen>
+    <dimen name="vertical_margin_small_ads">28dp</dimen>
+    <dimen name="ad_view_height">80dp</dimen>
+    <dimen name="grid_card_margin">8dp</dimen>
+    <dimen name="curtain_icon_size">28dp</dimen>
+    <dimen name="vertical_content_margin">5dp</dimen>
+
+    <dimen name="textSmall">12sp</dimen>
+    <dimen name="textMedium">14sp</dimen>
+    <dimen name="textLarge">16sp</dimen>
+
+</resources>

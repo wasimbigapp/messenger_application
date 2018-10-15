@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/ad_view_height">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/ad_view_fast_browsing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/horizontal_margin"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="@string/featured_add_id" />
+        <include
+            android:id="@+id/header_social_media"
+            layout="@layout/item_header" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_apps"
+            style="@style/list_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/horizontal_margin"
+            android:paddingRight="@dimen/horizontal_margin" />
+
+        <include
+            android:id="@+id/header_shopping"
+            layout="@layout/item_header" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_big_ads"
+            style="@style/list_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/horizontal_margin"
+            android:paddingLeft="@dimen/horizontal_margin"
+            android:paddingRight="@dimen/horizontal_margin" />
+
+    </LinearLayout>
+</ScrollView>

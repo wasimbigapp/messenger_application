@@ -1,0 +1,35 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion project.csv
+
+    defaultConfig {
+        applicationId "messenger.messenger.messanger.messenger"
+        minSdkVersion project.msv
+        targetSdkVersion project.tsv
+        versionCode project.versionCode
+        versionName project.versionName
+        multiDexEnabled true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            shrinkResources true
+            minifyEnabled true
+            buildConfigField "boolean", "LOGS_ENABLED", "false"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), '../app/proguard-rules.pro'
+        }
+        debug {
+            buildConfigField "boolean", "LOGS_ENABLED", "true"
+        }
+    }
+}
+
+dependencies {
+    implementation project(':app')
+}

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">news</string>
+    <string name="interstitial_ad_id" />
+    <string name="read_full_story">Read full story</string>
+    <string name="ago"> &#160; ago</string>
+    <string name="retry">Please retry</string>
+    <string name="featured_add_id">override</string>
+    <string name="country">Country :</string>
+    <string name="languages">Languages</string>
+    <string name="install">INSTALL</string>
+    <string name="news_category">News Category</string>
+    <string name="error_empty_news">We are still translating the news for you in a meanwhile check them in English</string>
+</resources>

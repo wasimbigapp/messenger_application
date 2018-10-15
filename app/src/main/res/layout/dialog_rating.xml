@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+
+    <RatingBar
+        android:id="@+id/app_rating"
+        style="@style/rating_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_title_rating"
+        android:layout_margin="@dimen/activity_horizontal_margin" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/txt_title_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/app_rating"
+        android:layout_alignLeft="@id/app_rating"
+        android:layout_alignRight="@id/app_rating"
+        android:layout_alignStart="@id/app_rating"
+        android:gravity="center"
+        android:text="@string/title_rating"
+        android:textAppearance="@style/app_text_common"
+        android:textSize="18sp"
+        app:autoSizeMinTextSize="18dp"
+        app:autoSizeStepGranularity="1dp"
+        app:autoSizeTextType="uniform" />
+
+
+    <Button
+        android:id="@+id/btn_submit_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/app_rating"
+        android:layout_alignLeft="@id/app_rating"
+        android:layout_alignRight="@id/app_rating"
+        android:layout_alignStart="@id/app_rating"
+        android:layout_below="@id/app_rating"
+        android:background="@color/colorPrimary"
+        android:text="@string/rate_play_store"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

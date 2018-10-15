@@ -1,0 +1,49 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'io.fabric'
+
+android {
+    compileSdkVersion project.csv
+    defaultConfig {
+        minSdkVersion project.msv
+        targetSdkVersion project.tsv
+        versionCode 17
+        versionName "0.0.8"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            buildConfigField "boolean", "LOGS_ENABLED", "false"
+        }
+        debug {
+            buildConfigField "boolean", "LOGS_ENABLED", "true"
+        }
+    }
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+    }
+    compileOptions {
+        targetCompatibility 1.8
+        sourceCompatibility 1.8
+    }
+}
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+    mavenCentral()
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    api project(':color-picker')
+    implementation project(':common')
+    implementation project(':news')
+
+    implementation 'com.android.support:multidex:1.0.2'
+    implementation 'com.github.lecho:hellocharts-library:1.5.8@aar'
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+
+apply plugin: 'com.google.gms.google-services'

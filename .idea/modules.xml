@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chrome-tabs/chrome-tabs.iml" filepath="$PROJECT_DIR$/chrome-tabs/chrome-tabs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/color-picker/color-picker.iml" filepath="$PROJECT_DIR$/color-picker/color-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/messenger/messenger.iml" filepath="$PROJECT_DIR$/messenger/messenger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/messenger-app.iml" filepath="$PROJECT_DIR$/messenger-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/news/news.iml" filepath="$PROJECT_DIR$/news/news.iml" />
+      <module fileurl="file://$PROJECT_DIR$/video-messenger/video-messenger.iml" filepath="$PROJECT_DIR$/video-messenger/video-messenger.iml" />
+    </modules>
+  </component>
+</project>

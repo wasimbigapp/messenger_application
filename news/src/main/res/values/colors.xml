@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="separator_color">#CCCCCC</color>
+    <color name="separator">#9C9C9C</color>
+
+    <color name="colorPrimary">#1787fb</color>
+    <color name="colorPrimaryDark">#1273D6</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="fab_bg">#FFC107</color>
+    <color name="separator_light">#1FFFFFFF</color>
+
+</resources>

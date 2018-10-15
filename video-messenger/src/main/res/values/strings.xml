@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Video Chat</string>
+    <string name="app_desc">All-in-one Video Chat App</string>
+    <string name="header_shopping">More</string>
+    <string name="share_text">I found this app very useful. Use Video Chat app to communicate with your friends and family. %s</string>
+    <string name="title_activity_splash">Video Chat</string>
+    <string name="title_rating">Enjoying using Video Chat, Rate your experience</string>
+    <string name="title_notification">Check all the Video chat apps</string>
+    <string name="desc_notification">All in one Video Chat app</string>
+    <string name="home_add_id">ca-app-pub-3463246254277621/5466154412</string>
+    <string name="featured_add_id">ca-app-pub-3463246254277621/3251054616</string>
+    <string name="interstitial_ad_id">ca-app-pub-3463246254277621/1865110316</string>
+    <string name="share_url">https://bit.ly/2rxf9xl</string>
+    <string name="AD_ID">ca-app-pub-3463246254277621~7445450497"</string>
+    <string name="TEST_DEVICE">0FA20932AFE1095798444FD9AAB7D425"</string>
+    <string name="publisher_id">pub-3463246254277621</string>
+    <string name="gdpr_test_device">539381A767079294612197E301D5476C</string>
+    <string name="api_url">http://35.154.116.170:8002/</string>
+    <string name="native_ad_id">ca-app-pub-3463246254277621/7782844188</string>
+</resources>

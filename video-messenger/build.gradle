@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion project.csv
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+
+    defaultConfig {
+        applicationId "messenger.messenger.videocall.messenger"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode project.versionCode
+        versionName project.versionName
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    buildTypes {
+        release {
+            shrinkResources true
+            minifyEnabled true
+            buildConfigField "boolean", "LOGS_ENABLED", "false"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), '../app/proguard-rules.pro'
+        }
+        debug {
+            buildConfigField "boolean", "LOGS_ENABLED", "true"
+        }
+    }
+
+}
+
+dependencies {
+    implementation project(':app')
+}

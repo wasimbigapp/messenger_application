@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_facebook"
+            android:icon="@drawable/ic_facebook"
+            android:title="@string/facebook" />
+        <item
+            android:id="@+id/nav_rate_us"
+            android:icon="@drawable/ic_tick"
+            android:title="@string/rate_us" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share"
+            android:title="@string/share" />
+        <item
+            android:id="@+id/nav_clear"
+            android:icon="@drawable/ic_clear"
+            android:title="@string/clear" />
+
+        <item
+            android:id="@+id/nav_chat_curtain"
+            android:icon="@drawable/ic_curtain"
+            android:title="@string/chat_curtain_toggle" />
+        <item
+            android:id="@+id/nav_chat_curtain_settings"
+            android:icon="@drawable/ic_settings_black"
+            android:title="@string/chat_curtain_color" />
+
+        <item
+            android:id="@+id/nav_consent_form"
+            android:icon="@drawable/ic_settings_black"
+            android:title="@string/nav_privacy_settings" />
+
+        <item
+            android:id="@+id/nav_privacy_policy"
+            android:icon="@drawable/vector_privacy_policy"
+            android:title="@string/privacy_policy" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Messenger</string>
+    <string name="interstitial_ad_id">ca-app-pub-3463246254277621/7777469169</string>
+    <string name="share_url">http://bit.ly/mymessengerapp</string>
+    <string name="AD_ID">ca-app-pub-3463246254277621~5543199828"</string>
+    <string name="TEST_DEVICE">0FA20932AFE1095798444FD9AAB7D425"</string>
+    <string name="publisher_id">pub-3463246254277621</string>
+    <string name="gdpr_test_device">539381A767079294612197E301D5476C</string>
+    <string name="api_url">http://35.154.116.170/</string>
+    <string name="native_ad_id">ca-app-pub-3463246254277621/4139150632</string>
+</resources>
